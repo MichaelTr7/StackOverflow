@@ -1,5 +1,5 @@
 
-Sample_Image = uint8([20 40 60 80; 100 120 140 160]);
+Sample_Image = uint8([0 40 80 120; 160 180 240 255]);
 subplot(1,3,1); imshow(Sample_Image,'InitialMagnification',1500);
 title("Test Image");
 set(gcf, 'Position',  [100, 100, 500, 400]);
