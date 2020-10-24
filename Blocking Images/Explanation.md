@@ -29,6 +29,7 @@ end
 ```
 
 <h3>Reconstructing the Image from Blocks</h3>
+
 ```
 Reconstructed_Image = zeros(Image_Height,Image_Width);
 
