@@ -1,3 +1,5 @@
+
+
 ```
 Image = imread("Boat.jpg"); 
 [Image_Height,Image_Width] = size(Image);
@@ -5,12 +7,11 @@ Block_Size = 8;
 
 Number_Of_Blocks_Horizontally = floor(Image_Width/8);
 Number_Of_Blocks_Vertically = floor(Image_Height/8);
+```
 
-%************************************************************%
-%SEPERATING THE IMAGES INTO 8 BY 8 BLOCKS%
-%************************************************************%
+<h3>Seperating The Images Into 8 BY 8 Blocks</h3>
 
-
+```
 Blocks = struct("Block_Images",[]);
 Block_Index = 1;
 
