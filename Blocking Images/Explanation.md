@@ -9,7 +9,7 @@ Number_Of_Blocks_Horizontally = floor(Image_Width/8);
 Number_Of_Blocks_Vertically = floor(Image_Height/8);
 ```
 
-<h3>Seperating The Images Into 8 BY 8 Blocks</h3>
+<h3>Seperating The Images Into 8 by 8 Blocks</h3>
 
 ```
 Blocks = struct("Block_Images",[]);
