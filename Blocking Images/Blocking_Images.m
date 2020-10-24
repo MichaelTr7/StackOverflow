@@ -1,4 +1,4 @@
-
+```
 Image = imread("Boat.jpg"); 
 [Image_Height,Image_Width] = size(Image);
 Block_Size = 8;
@@ -56,7 +56,7 @@ end
 
 imshow(uint8(Reconstructed_Image));
 title("Reconstructed Image from Blocks");
-
+```
 
 
 
