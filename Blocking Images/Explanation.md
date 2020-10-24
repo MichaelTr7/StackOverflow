@@ -26,20 +26,10 @@ for Row_Scanner = 1: +Block_Size: Image_Width
     
    end
 end
+```
 
-%%
-%************************************************************%
-%TRANSFORM THE 8 BY 8 BLOCKS%
-%************************************************************%
-
-
-
-
-%%
-%************************************************************%
-%RECONSTRUCTION%
-%************************************************************%
-
+<h3>Reconstructing the Image from Blocks</h3>
+```
 Reconstructed_Image = zeros(Image_Height,Image_Width);
 
 Block_Index = 1;
